@@ -14,7 +14,7 @@
 			<span id="logo2">
 			<a href="Page_Accueil.php"> <img src="../Photos/CDA_Logo.png" height="40" width="90" id="Logo" alt="Logo"> </a>
 			</span>
-			<span id="liste">
+			<span class="liste">
 			<div>
 				<ul>
 					<li> <a class="liste1" href="Client.php">Clients </a>
@@ -38,14 +38,14 @@
 
     <!--Text-->
     <span>
-			<div style="float: left;">
-				<img src="../Photos/Mains.jpg" height="200" width="300" alt="Mains">
+			<div style="float: left; margin-left: 2%; margin-right: 2%;">
+				<img src="../Photos/Mains.jpg" height="190" width="300" alt="Mains">
 			</div>
-			<div id="text">
+			<div class="text">
 				<h2> CDA - Wilson HUARD </h2>
 				<h3> Actualité du cabinet, Séminaire, scéance de sport, rendez-vous, concours, réunion, changement, toutes informations communes </h3> <br>
 			</div>
-		</span>
+    </span>
 
     <br>
     <br>
@@ -53,22 +53,24 @@
     <br>
     <br>
 
-    <!--Liste de l'actualités à suivre-->
-    <h2>  Réunion à venir </h2>
-    <h3> Aucune information à ce sujet pour l'instant </h3>
-    <br>
+    <div style="margin-left: 2%">
+        <!--Liste de l'actualités à suivre-->
+        <h2>  Réunion à venir </h2>
+        <h3> Aucune information à ce sujet pour l'instant </h3>
+        <br>
 
-    <h2>  Activités diverses </h2>
-    <h3> Aucune information à ce sujet pour l'instant </h3>
-    <br>
+        <h2>  Activités diverses </h2>
+        <h3> Aucune information à ce sujet pour l'instant </h3>
+        <br>
 
-    <h2>  Séminaires </h2>
-    <h3> Aucune information à ce sujet pour l'instant, si vous souhaitez consulté les photos du séminaire 2019 veuillez aller dans la rubrique photo </h3>
-    <br>
+        <h2>  Séminaires </h2>
+        <h3> Aucune information à ce sujet pour l'instant, si vous souhaitez consulté les photos du séminaire 2019 veuillez aller dans la rubrique photo </h3>
+        <br>
 
-    <h2>  Changement important </h2>
-    <h3> Arriver Wilson HUARD à Bel Air à la rentrée, l'activité en télétravail est toujours de rigueur. </h3>
-    <br>
+        <h2>  Changement important </h2>
+        <h3> Arriver Wilson HUARD à Bel Air à la rentrée, l'activité en télétravail est toujours de rigueur. </h3>
+        <br>
+    </div>
 
 
     <!--Les 3 photos en bas-->

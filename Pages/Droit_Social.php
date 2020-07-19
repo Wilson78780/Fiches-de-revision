@@ -37,15 +37,17 @@
 
        <div style="margin-left: 10%; margin-right: auto">
 
-           <h2 style="width: 48%"> Chapitres </h2>
+           <h2 style="font-size: 38px;"> Chapitres </h2>
            </br>
+
+           <div style="padding-left: 20%">
 
            <div class="rangement">
                </br>
-               <div style="text-align:center; color: #144F4E; font-weight: bold;"> Madame PEREZ
+               <div style="text-align:center; color: #144F4E; font-weight: bold; font-size: 20px; margin-right: 4%"> Madame PEREZ
                </div>
 
-               <ol class= "liste">
+               <ol style="font-size: 20px">
                    <li> <a class="liste_chapitre" href ="../Photos/Droit_social/1.4.Differents%20types%20contrat.pdf"> Différents types contrat </a> </li>
                    </br>
                    <li> <a class="liste_chapitre" href ="../Photos/Droit_social/1.6.Conditions%20de%20formation.pdf"> Conditions de formation </a> </li>
@@ -70,10 +72,10 @@
 
            <div class="rangement" id="Chapitres">
                </br>
-               <div style="text-align:center; color: #144F4E; font-weight: bold;"> Madame AYACHE
+               <div style="text-align:center; color: #144F4E; font-weight: bold; font-size: 20px; margin-right: 22%"> Madame AYACHE
                </div>
 
-               <ol class= "liste">
+               <ol style="font-size: 20px">
                    <li> <a class="liste_chapitre" href ="../Photos/Droit_social/2.1.protection%20sociale.pdf"> Protection sociale </a> </li>
                    </br>
                    <li> <a class="liste_chapitre" href ="../Photos/Droit_social/2.2.Régime generale.pdf"> Régime générale </a> </li>
@@ -89,6 +91,7 @@
                    <li> <a class="liste_chapitre" href ="../Photos/Droit_social/2.10.Participation%20%20Interessement.pdf"> Participation  Interessement</a> </li>
                    </br>
                </ol>
+           </div>
            </div>
        </div>
 

@@ -38,10 +38,10 @@
 
         <!--Text-->
         <span>
-                <div style="float: left;">
-                    <img src="../Photos/Check.png" height="300" width="300" alt="Check">
+                <div style="float: left; margin-left: 2%; margin-top: 1%">
+                    <img src="../Photos/Check.png" height="150" width="200" alt="Check">
                 </div>
-                <div id="text">
+                <div class="text">
                     <h2> CDA - Wilson HUARD </h2>
                     <h3>Liste de tâche à effectuer par client </h3> </br>
                 </div>

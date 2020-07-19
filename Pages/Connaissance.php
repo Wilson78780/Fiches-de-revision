@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="../Style/Style.css">
 </head>
     <body>
-        <script type="text/javascript" src="../javascript/Java.js"> </script>
+        <script type="text/javascript" src="../JavaScript/Java.js"> </script>
 
         <span>
             <div id="Bande"> <!--bande en haut-->
@@ -36,10 +36,10 @@
 
         <!--Text-->
         <span>
-                <div style="float: left;">
-                    <img src="../Photos/Livres.png" height="200" width="300" alt="Livres">
+                <div style="float: left; margin-left: 2%;">
+                    <img src="../Photos/Livres.png" height="180" width="300" alt="Livres">
                 </div>
-                <div id="text">
+                <div class="text">
                     <h2> CDA - Wilson HUARD </h2>
                     <h3> Un peu de lecture pour mieux s'informer ou s'y retrouver.. </h3> </br>
                 </div>

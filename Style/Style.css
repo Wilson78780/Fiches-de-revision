@@ -49,7 +49,7 @@
 }
 
 #Bande {
-    background-color: #efefef;
+    background-color: white;
     border-color: #dfdfdf;
     width: 100%;
     padding-top: 5px;
@@ -72,7 +72,7 @@ li {
 ul li a {
  display:block;
  float: center;   
- background-color:#efefef;
+ background-color: white;
  color:black;
  text-decoration:none;
  text-align:center;
@@ -83,8 +83,7 @@ ul li a {
  }
 
 ul li a:hover {
- background-color:#D3D3D3;
- border-color:#696969 #696969;
+ color: #bf6516;
  padding-bottom: 9%;
 } 
 
@@ -98,7 +97,7 @@ ol li a {
  padding: 5px;
  margin-right: 90px;
  border-color:#DCDCDC   #DCDCDC;
- color: grey;
+ color: #bf6516;
  width: 98.7%;
  }
 
@@ -120,26 +119,32 @@ ol li a:hover {
 
 .liste1 {
     padding-top: 13%;
+    font-size: 20px;
 }
 
 .liste2 {
     padding-top: 13%;
+    font-size: 20px;
 }
 
 .liste3 {
     padding-top: 9%;
+    font-size: 20px;
 }
 
 .liste4 {
-    padding-top: 9%;
+    padding-top: 8%;
+    font-size: 20px;
 }
 
 .liste5 {
     padding-top: 15%;
+    font-size: 20px;
 }
 
 .liste6 {
     padding-top: 15%;
+    font-size: 20px;
 }
 
 .rangement{
@@ -238,6 +243,7 @@ body {
 .container {
     display: inline-block;
     position: relative;
+    background-color: #D3D3D3;
 }
 .container .text {
     background: rgba(0, 0, 0, 0.8);
@@ -251,4 +257,12 @@ body {
     top: 30%;
     color: white;
     width: 70%;
+}
+.text {
+    Background-color: #D3D3D3;
+    text-align: center;
+    padding: 1%;
+}
+h2 {
+    padding-right: 10%;
 }

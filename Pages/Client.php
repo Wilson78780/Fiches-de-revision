@@ -18,9 +18,9 @@
                 <span id="liste">
                 <div>
                     <ul>
-                        <li> <a class="liste1" href="Client.html">Clients </a>
+                        <li> <a class="liste1" href="Client.php">Clients </a>
                             </li>
-                        <li> <a class="liste2" href="Tache.html">Taches </a>
+                        <li> <a class="liste2" href="Tache.php">Taches </a>
                             </li>
                         <li> <a class="liste3" href="Connaissance.php"> Actu &amp; Pratique </a>
                             </li>
@@ -40,13 +40,14 @@
         <!--Text-->
         <span>
                 <div style="float: left;">
-                    <img src="../Photos/Clients.jpg" height="300" width="600" alt="Clients">
+                    <img src="../Photos/Clients.jpg" height="205" width="400" alt="Clients">
                 </div>
-                <div id="text">
+                <div class="text">
                     <h2> CDA - Wilson HUARD </h2>
                     <h3> La liste des clients pour mieux s'y retrouver </h3> </br>
                     <button class="favorite styled"
-                            type="button">
+                            type="button"
+                            style="margin-right: 9%">
                     Ajouter un client
                     </button>
                 </div>
