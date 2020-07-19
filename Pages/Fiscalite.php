@@ -100,8 +100,8 @@
                        </br>
                    </ol>
                </ol>
-
            </div>
+       </div>
 
            <!--conlone en plus vide avec une largeur pour séparer les colones-->
            <div class="rangement" style="width: 10px"> </div>

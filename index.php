@@ -13,7 +13,7 @@
 
             <!--Par rapport à .js class="title" c'est le père, et les autres vont être les fils-->
             <div class="title">
-                <a class="title" href="Html/Page_Accueil.php"> <span> <span> Bienvenue </span> </span> <span> <span> à </span> </span>
+                <a class="title" href="Pages/Page_Accueil.php"> <span> <span> Bienvenue </span> </span> <span> <span> à </span> </span>
                     </br> <span> <span> l'équipe </span> </span> <span> <span> CDA </span> </span>  </a>
             </div>
         </div>
