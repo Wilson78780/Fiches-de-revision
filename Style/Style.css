@@ -1,0 +1,237 @@
+.body_index {
+    width: 100%;
+    height: 100%;
+    font-size: 32px;
+    color: white;
+    background-color: #bf6516;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20%;
+    }
+
+.title {
+    font-weight: 799;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    }
+
+.title span {
+    display: inline-block;
+     overflow: hidden;
+     color: white;
+     text-decoration: none;
+    }
+
+.title span span {
+    display: block;
+    animation: titleReveal .7s both;
+    color: white;
+    text-decoration: none;
+}
+
+@keyframes titleReveal {
+    from {
+        opacity: 0;
+        transform: translateY(100% );
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+#Logo {
+    margin-left: 30%;
+    padding-top: 11%;
+}
+
+#Bande {
+    background-color: #efefef;
+    border-color: #dfdfdf;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5%;
+}
+
+ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ float: center;
+ text-align: center;
+ }
+
+li {
+ margin-left:2px;
+ float: left;
+ }
+
+ul li a {
+ display:block;
+ float: center;   
+ background-color:#efefef;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ padding: 5px;
+ margin-right: 90px;
+ border-color:#DCDCDC   #DCDCDC;
+ color: grey;
+ }
+
+ul li a:hover {
+ background-color:#D3D3D3;
+ border-color:#696969 #696969;
+ padding-bottom: 9%;
+} 
+
+ol li a {
+ display:block;
+ float: center;   
+ background-color:white;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ padding: 5px;
+ margin-right: 90px;
+ border-color:#DCDCDC   #DCDCDC;
+ color: grey;
+ width: 98.7%;
+ }
+
+ol li a:hover {
+ background-color:#D3D3D3;
+ border-color:#696969 #696969;
+ padding: 5px;
+ width: 98.7%;
+} 
+
+ #liste {
+    text-align: center;
+ }
+
+#logo2 {
+    float: left; 
+    padding-right: 10%;
+}
+
+.liste1 {
+    padding-top: 13%;
+}
+
+.liste2 {
+    padding-top: 13%;
+}
+
+.liste3 {
+    padding-top: 9%;
+}
+
+.liste4 {
+    padding-top: 9%;
+}
+
+.liste5 {
+    padding-top: 15%;
+}
+
+.liste6 {
+    padding-top: 15%;
+}
+
+#text {
+    margin-left: 45%;
+}
+
+.rangement{
+  display: table-cell; 
+  margin: 100px;
+}
+
+figure {
+  display: table-row;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+figcaption {
+    padding: 3px;
+    text-align: center;
+    color: black;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 19px;
+    margin-bottom: 25%;
+    background-color: #F0F0F0;
+}
+
+figcaption:hover {
+    background-color: orange;
+    border-color: black;
+}
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #A4492A;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: #FABE00;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.carre_sommaire{
+    color: grey;
+    margin: 0 ;
+    padding: 0;
+    text-decoration: none;
+    font-size: 20px;
+    border-style: ridge;
+    width: 60%;
+    border-color: #bf6516; }
+.liste_sommaire {
+    color: #bf6516;
+    text-decoration: none;} 
+
+footer {
+    background-color: #343434;
+    left: 0;
+    margin-bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+h2 {
+    font-weight: bold; 
+    font-size: 24px; 
+    color: #bf6516; 
+    font-family: Blippo, fantasy
+}
+ h3 {
+    font-size: 17px; 
+    font-family: GJazz LET, fantasy; 
+    margin-right: 10%;
+    font-weight: normal;
+ }
