@@ -142,10 +142,6 @@ ol li a:hover {
     padding-top: 15%;
 }
 
-#text {
-    margin-left: 45%;
-}
-
 .rangement{
   display: table-cell; 
   margin: 100px;
@@ -235,3 +231,24 @@ h2 {
     margin-right: 10%;
     font-weight: normal;
  }
+body {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display: inline-block;
+    position: relative;
+}
+.container .text {
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    color: white;
+    width: 70%;
+}
