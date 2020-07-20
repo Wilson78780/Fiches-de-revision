@@ -5,7 +5,11 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="../Style/Style.css">
 </head>
+<<<<<<< HEAD
     <div>
+=======
+    <body>
+>>>>>>> 5ce55b8e7887108e6b983f629de0a98c8b0a54aa
         <script type="text/javascript" src="../JavaScript/Java.js"> </script>
 
         <span>
@@ -36,12 +40,21 @@
 
         <!--Text-->
         <span>
+<<<<<<< HEAD
                <div class="container">
                         <img src="../Photos/CDA_Cabinet.jpg" height="350" width="1400" alt="CDA cabinet">
                     <div class="text">
                             <h2> Actu & Pratique </h2>
                             <h3 style="margin-left: 10%;">Vous avez des questions d'un point de vus théorique pour appliquer la pratique, bienvenue sur cette page ici la connaissance est à votre porté</h3> </br>
                     </div>
+=======
+                <div style="float: left; margin-left: 2%;">
+                    <img src="../Photos/Livres.png" height="180" width="300" alt="Livres">
+                </div>
+                <div class="text">
+                    <h2> CDA - Wilson HUARD </h2>
+                    <h3> Un peu de lecture pour mieux s'informer ou s'y retrouver.. </h3> </br>
+>>>>>>> 5ce55b8e7887108e6b983f629de0a98c8b0a54aa
                 </div>
             </span>
 
@@ -52,6 +65,7 @@
         </br>
 
         <!-- Liste de cours-->
+<<<<<<< HEAD
         <div style="margin-left: 22%"
         <!--Fiscalité-->
         <div class="container" style="margin-left: 3%">
@@ -85,6 +99,18 @@
         </div>
         </div>
 
+=======
+        <ol class= "cours" style="padding-top: 15px">
+
+            <li class="carre_sommaire"> <a class="liste_sommaire" href ="Droit_Social.php"> DROIT SOCIAL </a> </li>
+            </br>
+            <li class="carre_sommaire"> <a class="liste_sommaire" href ="Fiscalite.php"> FISCALITE </a> </li>
+            </br>
+            <li class="carre_sommaire"> <a class="liste_sommaire" href ="https://bofip.impots.gouv.fr/bofip/1-PGP.html"> BOFIP </a> </li>
+            </br>
+            <li class="carre_sommaire"> <a class="liste_sommaire" href ="#"> Liste de téléphone CDA </a> </li>
+        </ol>
+>>>>>>> 5ce55b8e7887108e6b983f629de0a98c8b0a54aa
 
         <!--Les 3 photos en bas-->
         <div style="margin-left: 10%; margin-right: auto; width: 50%; margin-top: 20%">

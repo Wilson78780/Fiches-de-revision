@@ -47,7 +47,11 @@
                     <div style="text-align:center; color: #144F4E; font-weight: bold; font-size: 25px; margin-right: 30%"> Impôt
                     </div>
 
+<<<<<<< HEAD
                     <ol style="font-size: 16px">
+=======
+                    <ol style="font-size: 19px">
+>>>>>>> 5ce55b8e7887108e6b983f629de0a98c8b0a54aa
                         <li> <a class="liste_chapitre" href="../Photos/Fiscalite/Impot/CH20_Credit_Impot_Aides_Fiscale/Credit_impot_et_aide_fiscale_accorde_aux_entreprises.pdf"> Crédit d'impôt </a> </li>
                         <br>
                         <li> <a class="liste_chapitre" href="../Photos/Fiscalite/Impot/CH20_Credit_Impot_Aides_Fiscale/Credit_impot_et_aide_fiscale_accorde_aux_entreprises_(Suite).pdf"> Crédit d'impôt suite </a> </li>
@@ -114,7 +118,11 @@
                     <div style="text-align:center; color: #144F4E; font-weight: bold; font-size: 25px; margin-right: 30%"> TVA
                     </div>
 
+<<<<<<< HEAD
                     <ol style="font-size: 16px">
+=======
+                    <ol style="font-size: 19px">
+>>>>>>> 5ce55b8e7887108e6b983f629de0a98c8b0a54aa
                         <li> <a class="liste_chapitre" href ="../Photos/Fiscalite/TVA/CH2_Le_Champs_application_TVA/TVA.jpeg"> Champs de TVA </a> </li>
                         </br>
                         <li> <a class="liste_chapitre" href ="../Photos/Fiscalite/TVA/CH3_Territorialite/Territorialite%20TVA.jpeg"> Territorialité TVA </a> </li>
