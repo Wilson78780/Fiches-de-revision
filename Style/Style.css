@@ -241,10 +241,13 @@ body {
     margin: 0;
 }
 .container {
+    width:100%;
     display: inline-block;
     position: relative;
     background-color: #D3D3D3;
+    overflow:hidden;
 }
+
 .container .text {
     background: rgba(0, 0, 0, 0.8);
     z-index: 1;
