@@ -15,7 +15,7 @@ if (isset($_GET['deconnexion'])) {
 
     <body>
        <span>
-                <div class="container">
+                <div class="container2">
                         <img style="width:100%; height: 400px" src="../Photos/CDA_Cabinet.jpg" alt="CDA cabinet">
                     <div class="text">
                             <h2> CDA - Wilson HUARD </h2>
@@ -28,32 +28,45 @@ if (isset($_GET['deconnexion'])) {
        </br>
        </br>
        </br>
-        <h1>Connexion</h1>
-        <form method="POST">
-            <p>
-                <label>Nom d'utilisateur</label>
-                <input name='username' type="text" required>
-            </p>
+       <div style="text-align: center">
+            <h1 class="ConnInsc">Connexion</h1>
+            <form method="POST">
+                <p>
+                    <label>Nom d'utilisateur</label>
+                    <input name='username' type="text" required>
+                </p>
 
-            <p>
-                <label> Mot de passe </label>
-                <input name='password' type="password" minlength="3" required>
-            </p>
-            <input id="submit" type="submit" value="Se connecter" >
-        </form>
+                <p>
+                    <label> Mot de passe </label>
+                    <input name='password' type="password" minlength="3" required>
+                </p>
+                <input style="background-color: ghostwhite; margin-bottom: 20px" id="submit" type="submit" value="Se connecter" >
+            </form>
 
-    <?php
-    if(isset($_GET['erreur'])){
-        $err = $_GET['erreur'];
-        if($err==1)
-            echo "<p style='color:red'> Utilisateur ou mot de passe incorrect</p>";
-    }
-    // VERIFIE SI LA PERSONNE EST DEJA CONNECTEE -> SESSION A DEJA UN USERNAME
-    else if(isset($_SESSION['username'])){
-        echo "Vous êtes déjà connecté ! Vous allez être redirigé vers la page d'accueil.";
-        header("refresh:3; url=Page_Accueil.php");
-    }
-    ?>
+            <?php
+            if(isset($_GET['erreur'])){
+                $err = $_GET['erreur'];
+                if($err==1)
+                    echo "<p style='color:red'> Utilisateur ou mot de passe incorrect</p>";
+            }
+            // VERIFIE SI LA PERSONNE EST DEJA CONNECTEE -> SESSION A DEJA UN USERNAME
+            else if(isset($_SESSION['username'])){
+                echo "Vous êtes déjà connecté ! Vous allez être redirigé vers la page d'accueil.";
+                header("refresh:3; url=Page_Accueil.php");
+            }
+            ?>
+       </div>
+
+       <footer style="margin-top: 5%"> <!--Information en bas footer-->
+           <p> <img src="../Photos/CDA_LogoFull.png"> </p>
+           CABINET DE SAINT GERMAIN EN LAYE, QUARTIER BEL-AIR (PROCHE SOUS-PRÉFECTURE) </br>
+           21 avenue Saint Fiacre </br>
+           78100 Saint Germain en Laye </br>
+           <p style="color:#bf6516 ">
+               <a href="mailto:contact@cda-conseils.com" style="text-decoration: none; color:#bf6516;"> contact@cda-conseils.com </a> </br>
+               01 30 61 57 92</p>
+
+       </footer>
 
     </body>
 <?php include"DB.php";
