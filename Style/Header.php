@@ -1,9 +1,10 @@
 <?php
     session_start(); //Sert à démarrer la session voir dans page utilisation dans le HTML
-    if(isset($_GET['decconexion'])OR !isset($_SESSION['username']))
+    // SI ON A CLIQUE SUR LE BOUTON DECONNEXION OU SI LA SESSION N'A PAS DE USERNAME -> REDIRECTION VERS LA PAGE DE CONNEXION
+    if(isset($_GET['deconnexion']) OR !isset($_SESSION['username']))
     {
         session_unset();
-        header("Loation: Connexion.php");
+        header("Location: Connexion.php");
     }
 ?>
 <span>
