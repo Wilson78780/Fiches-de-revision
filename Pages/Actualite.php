@@ -31,8 +31,70 @@
     <div style="margin-left: 2%">
         <!--Liste de l'actualités à suivre-->
         <h2>  Réunion à venir </h2>
-        <h3> Aucune information à ce sujet pour l'instant </h3>
+        <div style="color: #A4492A">Réunion</div>
+
+        <form method="POST">
+            <label style="color: #A4492A">Date</label>
+            <input name='Date_reunion' type="text" required>
+
+            <label style="color: #A4492A">Revue fiscale</label>
+            <select name='Revue_fiduciaire' size="1" required>
+                <option>--</option>
+                <option>Oui</option>
+                <option>Non</option>
+            </select>
+            <input id='submit' type="submit" value="Ajouter">
+        </form>
         <br>
+
+        <?php
+        include"DB.php";
+        if (isset ($_POST['Date_reunion']) && ($_POST['Revue_fiduciaire']) )
+        {
+            Reunion($_POST['Date_reunion'],$_POST['Revue_fiduciaire']);
+
+        }
+        ?>
+        <br>
+        <div style="color: #A4492A">Réunion à supprimer</div>
+        <form method="POST">
+            <label style="color: #A4492A">Date</label>
+            <input name='date_supprimer' type="text" required>
+
+            <input id='submit' type="submit" value="Supprimer">
+        </form>
+        <br>
+
+        <?php
+        if (isset ($_POST['date_supprimer']) )
+        {
+            Supprimer_reunion($_POST['date_supprimer']);
+
+        }
+
+        $reponse = $db->query('SELECT * FROM Reunion');
+
+        echo '<center><table style="text-align: center">';
+        echo '<th style="width: 100px">Date</th>';
+        echo '<th style="width: 100px">Revue fiduciaire</th>';
+        echo '</tr>';
+
+        // On affiche chaque entrée une à une
+        while ($donnees = $reponse->fetch())
+        {
+            echo '<tr>';
+            echo '<td>' . $donnees['Date'] . '</td>';
+            echo '<td>' . $donnees['Revue_fiduciaire'] . '</td>';
+            echo '</tr>';
+        }
+        echo '</table></center>';
+        $pdo = null;
+
+
+        $reponse->closeCursor(); // Termine le traitement de la requête
+
+
+        ?>
 
         <h2>  Activités diverses </h2>
         <h3> Aucune information à ce sujet pour l'instant </h3>

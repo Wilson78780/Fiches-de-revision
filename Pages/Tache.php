@@ -52,7 +52,7 @@
         </br>
         <?php
 include"DB.php";
-    if (isset ($_POST['name_tache']) && ($_POST['date_tache']) && ($_POST['importance_tache']) )
+    if (isset ($_POST['name_tache']) && ($_POST['date_tache']) && ($_POST['importance_tache']) && ($_POST['description_tache']) )
         {
             Ajouter_tache($_POST['name_tache'],$_POST['date_tache'],$_POST['importance_tache'],$_POST['description_tache'] );
 
@@ -83,10 +83,10 @@ include"DB.php";
         $reponse = $db->query('SELECT * FROM Liste_tache');
 
         echo '<center><table style="text-align: center">';
-        echo '<th>Tâche</th>';
-        echo '<th>Date</th>';
-        echo '<th>Importance</th>';
-        echo '<th>Description</th>';
+        echo '<th style="width: 100px">Tâche</th>';
+        echo '<th style="width: 100px">Date</th>';
+        echo '<th style="width: 100px">Importance</th>';
+        echo '<th style="width: 100px">Description</th>';
         echo '</tr>';
 
         // On affiche chaque entrée une à une

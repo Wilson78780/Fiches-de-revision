@@ -152,8 +152,45 @@ function Supprimer_client(String $supprimer_client){
     try{
         $requete = $db->prepare("DELETE FROM `Liste_client` WHERE `nom_client`= :supprimer_client");
         $requete->bindParam('supprimer_client', $supprimer_client);
+
         $requete->execute();
         echo"Le client a été supprimé";
+    }
+    catch (PDOException $e) {
+        echo $e;
+    }
+}
+
+//Fonction ajouter réunion
+function Reunion(String $Date_reunion, String $Revue_fiduciaire){
+
+    $db = $GLOBALS['db'];
+
+    try{
+        $requete = $db->prepare("INSERT INTO `Reunion`(`Date`, `Revue_fiduciaire`) VALUES (:Date_reunion, :Revue_fiduciaire)");
+        $requete->bindParam('Date_reunion', $Date_reunion);
+        $requete->bindParam('Revue_fiduciaire', $Revue_fiduciaire);
+
+        $requete->execute();
+        echo"La réunion a été ajouté";
+    }
+    catch (PDOException $e) {
+        echo $e;
+    }
+}
+
+//Fonction Suppression reunion
+
+function Supprimer_reunion(String $date_supprimer){
+
+    $db = $GLOBALS['db'];
+
+    try{
+        $requete = $db->prepare("DELETE FROM `Reunion` WHERE `Date`= :date_supprimer");
+        $requete->bindParam('date_supprimer', $date_supprimer);
+
+        $requete->execute();
+        echo"La réunion a été supprimé";
     }
     catch (PDOException $e) {
         echo $e;

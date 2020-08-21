@@ -14,15 +14,15 @@
         <!--Text-->
         <span>
                 <div style="float: left; margin-left: 2%; margin-top: 1%">
-                    <img src="../Photos/Check.png" height="150" width="200" alt="Check">
+                    <img src="../Photos/Clients.jpg" height="150" width="200" alt="Check">
                 </div>
                 <div class="text">
                     <h2> CDA - Wilson HUARD </h2>
-                    <h3>Liste de tâche à effectuer par client </h3> </br>
+                    <h3>Liste des clients </h3> </br>
                 </div>
         </span>
         <div style="margin-left: 5px">
-            <h1>Ajouter une tâche à la liste</h1>
+            <h1>Ajouter un client à la liste</h1>
             <form method="POST">
                 <p>
                     <label>Nom du client</label>
@@ -109,13 +109,13 @@
         $reponse = $db->query('SELECT * FROM Liste_client');
 
         echo '<center><table style="text-align: center"> <tr>';
-        echo '<th>Nom client</th>';
-        echo '<th>Activité</th>';
-        echo '<th>Statut</th>';
-        echo '<th>Adresse</th>';
-        echo '<th>TVA</th>';
-        echo '<th>Impôt</th>';
-        echo '<th>Social</th>';
+        echo '<th style="width: 100px">Nom client</th>';
+        echo '<th style="width: 100px">Activité</th>';
+        echo '<th style="width: 100px">Statut</th>';
+        echo '<th style="width: 100px">Adresse</th>';
+        echo '<th style="width: 100px">TVA</th>';
+        echo '<th style="width: 100px">Impôt</th>';
+        echo '<th style="width: 100px">Social</th>';
         echo '</tr>';
 
         // On affiche chaque entrée une à une
@@ -128,7 +128,6 @@
             echo '<td>' . $donnees['adresse_client'] . '</td>';
             echo '<td>' . $donnees['tva_client'] . '</td>';
             echo '<td>' . $donnees['impot_client'] . '</td>';
-            echo '<td>' . $donnees['tva_client'] . '</td>';
             echo '<td>' . $donnees['social_client'] . '</td>';
             echo '</tr>';
         }
