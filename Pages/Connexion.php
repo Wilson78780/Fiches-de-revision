@@ -55,6 +55,9 @@ if (isset($_GET['deconnexion'])) {
                 header("refresh:3; url=Page_Accueil.php");
             }
             ?>
+
+           <a href="Inscription.php"> Inscription </a>
+
        </div>
 
        <footer style="margin-top: 5%"> <!--Information en bas footer-->
@@ -69,7 +72,8 @@ if (isset($_GET['deconnexion'])) {
        </footer>
 
     </body>
-<?php include"DB.php";
+<?php
+include"DB.php";
 if (isset($_POST['username'])&& isset($_POST['password'])) {
 
     $username = $_POST['username'];
