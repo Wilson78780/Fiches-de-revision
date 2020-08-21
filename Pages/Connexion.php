@@ -19,7 +19,7 @@ if (isset($_GET['deconnexion'])) {
                         <img style="width:100%; height: 400px" src="../Photos/CDA_Cabinet.jpg" alt="CDA cabinet">
                     <div class="text">
                             <h2> CDA - Wilson HUARD </h2>
-                            <h3 style="margin-left: 10%;"> Je suis Wilson HUARD, élève en DCG bientôt en DSCG, ce site que j'ai créé est à but d'apprentissage à la programmation et peut me servir pour mon organisation quotidienne.
+                            <h3 style="margin-left: 10%;"> Je suis Wilson HUARD, élève en DCG bientôt en DSCG, ce site que j'ai créé a pour but l'apprentissage de la programmation et peut me servir pour mon organisation quotidienne.
                 </div>
             </span>
 
