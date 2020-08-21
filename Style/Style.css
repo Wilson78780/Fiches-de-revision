@@ -269,3 +269,21 @@ body {
 h2 {
     padding-right: 10%;
 }
+#user_menu{
+    float: right;
+    display: inline;
+    text-align: center;
+    text-transform: uppercase;
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 10px;
+}
+#logo_deconnexion {
+    width: 20px;
+    height: 20px;
+    float: right;
+    padding: 5px;
+}
