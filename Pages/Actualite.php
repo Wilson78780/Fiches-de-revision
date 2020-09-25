@@ -35,7 +35,7 @@
 
         <form method="POST">
             <label style="color: #A4492A">Date</label>
-            <input name='Date_reunion' type="text" required>
+            <input name='Date_reunion' type="text"  placeholder="Date" required>
 
             <label style="color: #A4492A">Revue fiscale</label>
             <select name='Revue_fiduciaire' size="1" required>
@@ -59,7 +59,7 @@
         <div style="color: #A4492A">Réunion à supprimer</div>
         <form method="POST">
             <label style="color: #A4492A">Date</label>
-            <input name='date_supprimer' type="text" required>
+            <input name='date_supprimer' type="text" placeholder="Date" required>
 
             <input id='submit' type="submit" value="Supprimer">
         </form>

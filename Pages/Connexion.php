@@ -33,12 +33,12 @@ if (isset($_GET['deconnexion'])) {
             <form method="POST">
                 <p>
                     <label>Nom d'utilisateur</label>
-                    <input name='username' type="text" required>
+                    <input name='username' placeholder="Nom utilisateur" type="text" required>
                 </p>
 
                 <p>
                     <label> Mot de passe </label>
-                    <input name='password' type="password" minlength="3" required>
+                    <input name='password' type="password" placeholder="Mot de passe" minlength="3" required>
                 </p>
                 <input style="background-color: ghostwhite; margin-bottom: 20px" id="submit" type="submit" value="Se connecter" >
             </form>

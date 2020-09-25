@@ -27,11 +27,11 @@
             <form method="POST">
                <p>
                     <label>Nom de la tâche</label>
-                    <input name='name_tache' type="text" required>
+                    <input name='name_tache' type="text" placeholder="Tâche" required>
 
 
                     <label>Date</label>
-                    <input name='date_tache' type="text" required>
+                    <input name='date_tache' type="text" placeholder="Date" required>
 
 
                     <label>Importance</label>
@@ -43,7 +43,7 @@
                     </select>
 
                    <label>Description</label>
-                   <input name='description_tache' type="text" required>
+                   <input name='description_tache' placeholder="Description" type="text" required>
                 </p>
                 <input id='submit' type="submit" value="Ajouter">
             </form>
@@ -65,7 +65,7 @@ include"DB.php";
 
             <form method="POST">
                 <label>Supprimer une tâche</label>
-                <input name='supprimer_tache' type="text" required>
+                <input name='supprimer_tache' placeholder="Tâche" type="text" required>
 
                 <input id='submit' type="submit" value="Supprimer">
             </form>

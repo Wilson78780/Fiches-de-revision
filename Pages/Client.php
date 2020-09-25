@@ -26,12 +26,11 @@
             <form method="POST">
                 <p>
                     <label>Nom du client</label>
-                    <input name='nom_client' type="text" required>
+                    <input name='nom_client' type="text" placeholder="Nom du client" required>
 
 
                     <label>Activité</label>
-                    <input name='activite_client' type="text" required>
-
+                    <input name='activite_client' type="text" placeholder="Activité" required>
 
                     <label>Statut</label>
                     <select name='statut_client' size="1" required>
@@ -46,7 +45,7 @@
                     </select>
 
                     <label>Adresse</label>
-                    <input name='adresse_client' type="text" required>
+                    <input name='adresse_client' type="text"  placeholder="Adresse" required>
 
                     <label>TVA</label>
                     <select name='tva_client' size="1" required>
@@ -66,7 +65,7 @@
                     </select>
 
                     <label>Social</label>
-                    <select name='social_client' size="1" required>
+                    <select name='social_client' size="1"  required>
                         <option>--</option>
                         <option>Cabinet</option>
                         <option>Client</option>
@@ -92,7 +91,7 @@
 
             <form method="POST">
                 <label>Supprimer un client</label>
-                <input name='supprimer_client' type="text" required>
+                <input name='supprimer_client' type="text" placeholder="Nom client" required>
 
                 <input id='submit' type="submit" value="Supprimer">
             </form>

@@ -13,28 +13,29 @@
                             <h3 style="margin-left: 10%;"> Je suis Wilson HUARD, élève en DCG bientôt en DSCG, ce site que j'ai créé a pour but l'apprentissage de la programmation et peut me servir pour mon organisation quotidienne.
                     </div>
         </span>
-                <h1 class="ConnInsc">Inscription</h1>
-                <form method="POST">
-                    <p>
-                        <label>Nom d'utilisateur</label>
-                        <input name='username' type="text" required>
-                    </p>
+            <h1 class="ConnInsc">Inscription</h1>
+            <form method="POST">
+                <p>
+                    <label>Nom d'utilisateur</label>
+                    <input name='username' placeholder="Nom utilisateur" type="text" required>
+                </p>
 
-                    <p>
-                        <label>Adresse email</label>
-                        <input name='email' type="text" required>
-                    </p>
+                <p>
+                    <label>Adresse email</label>
+                    <input name='email' placeholder="aur...@gmail.com" type="text" required>
+                </p>
 
-                    <p>
-                        <label> Mot de passe </label>
-                        <input name='password' type="password" minlength="3" required>
-                    </p>
-                    <p>
-                        <label>  Répété le mot de passe </label>
-                        <input name='password2' type="password" minlength="3" required>
-                    </p>
-                    <input style="background-color: ghostwhite; margin-bottom: 20px" id="submit" type="submit" value="Se connecter" >
-                </form>
+                <p>
+                    <label> Mot de passe </label>
+                    <input name='password' type="password" placeholder="Mot de passe" minlength="3" required>
+                </p>
+                <p>
+                    <label>  Répété le mot de passe </label>
+                    <input name='password2' type="password" placeholder="Mot de passe" minlength="3" required>
+                </p>
+                <input style="background-color: ghostwhite; margin-bottom: 20px" id="submit" type="submit" value="Se connecter" >
+            </form>
+
             <?php
             if(isset($_GET['erreur'])){
                 $err = $_GET['erreur'];
@@ -48,7 +49,7 @@
             ?>
 
             <a href="Connexion.php"> Connexion </a>
-        </div>
+    </div>
 
     </body>
 <?php
