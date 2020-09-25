@@ -15,19 +15,22 @@ if (isset($_GET['deconnexion'])) {
 
     <body>
        <span>
-                <div class="container2">
-                        <img style="width:100%; height: 400px" src="../Photos/CDA_Cabinet.jpg" alt="CDA cabinet">
-                    <div class="text">
-                            <h2> CDA - Wilson HUARD </h2>
-                            <h3 style="margin-left: 10%;"> Je suis Wilson HUARD, élève en DCG bientôt en DSCG, ce site que j'ai créé a pour but l'apprentissage de la programmation et peut me servir pour mon organisation quotidienne.
+           <div class="container2">
+               <img style="width:100%; height: 400px" src="../Photos/CDA_Cabinet.jpg" alt="CDA cabinet">
+                <div class="text">
+                    <h2> CDA - Wilson HUARD </h2>
+                    <h3 style="margin-left: 10%;"> Je suis Wilson HUARD, élève en DCG bientôt en DSCG, ce site que j'ai créé a pour but l'apprentissage de la programmation et peut me servir pour mon organisation quotidienne.
                 </div>
-            </span>
+           </div>
+        </span>
 
        </br>
        </br>
        </br>
        </br>
        </br>
+
+
        <div style="text-align: center">
             <h1 class="ConnInsc">Connexion</h1>
             <form method="POST">
@@ -60,6 +63,7 @@ if (isset($_GET['deconnexion'])) {
 
        </div>
 
+       <!--Footer-->
        <footer style="margin-top: 5%"> <!--Information en bas footer-->
            <p> <img src="../Photos/CDA_LogoFull.png"> </p>
            CABINET DE SAINT GERMAIN EN LAYE, QUARTIER BEL-AIR (PROCHE SOUS-PRÉFECTURE) </br>
@@ -68,10 +72,10 @@ if (isset($_GET['deconnexion'])) {
            <p style="color:#bf6516 ">
                <a href="mailto:contact@cda-conseils.com" style="text-decoration: none; color:#bf6516;"> contact@cda-conseils.com </a> </br>
                01 30 61 57 92</p>
-
        </footer>
 
     </body>
+
 <?php
 include"DB.php";
 if (isset($_POST['username'])&& isset($_POST['password'])) {

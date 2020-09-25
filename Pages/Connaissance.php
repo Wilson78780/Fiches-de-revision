@@ -12,15 +12,14 @@
 
         <!--Text-->
         <span>
-
              <div class="container">
-                        <img src="../Photos/CDA_Cabinet.jpg" height="600" width="100%" alt="CDA cabinet">
-                     <div class="text">
-                    <h2> CDA - Wilson HUARD </h2>
-                    <h3> Un peu de lecture pour mieux s'informer ou s'y retrouver.. </h3> </br>
-                    </div>
-                </div>
-            </span>
+                 <img src="../Photos/CDA_Cabinet.jpg" height="600" width="100%" alt="CDA cabinet">
+                 <div class="text">
+                     <h2> CDA - Wilson HUARD </h2>
+                     <h3> Un peu de lecture pour mieux s'informer ou s'y retrouver.. </h3> </br>
+                 </div>
+             </div>
+        </span>
 
         </br>
         </br>

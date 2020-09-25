@@ -8,6 +8,10 @@ $db = new PDO("mysql:host=$servername;dbname=$database", $db_username, $db_passw
 // set the PDO error mode to exception
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
+
+
+//Inscription
+
 //Vérification que le couple username et passord existe
 //Si oui alors renvois true
 //Sinon False
@@ -80,7 +84,36 @@ function Creation_utilisateur(String $username, String $email, String $password)
     }
 }
 
-//Fonction ajouter une tache dans la table Tache
+
+
+//Fonction ajouter une tâche
+
+
+//Fonction savoir si le client existe déjà
+//Si oui, message erreur
+
+function verif_tache_existante (String $name_tache) {
+
+    $db = $GLOBALS['db'];
+    try {
+        $requete = $db->prepare("SELECT * FROM `Liste_tache` WHERE `Nom_tache` = :name_tache");
+        $requete->bindParam('name_tache', $name_tache);
+
+        $requete->execute();
+        $result = $requete->fetch(PDO::FETCH_ASSOC);
+
+        if ($requete->rowCount() > 0) { //Voir s'il y a un username ou un email qui est déjà connu par DB
+            return true;
+        }
+        else {
+            return false;
+        }
+    } catch (PDOException $e) {
+        echo $e;
+    }
+
+}
+
 function Ajouter_tache (String $name_tache, String $date_tache, String $importance_tache, String $description_tache ) {
     $db = $GLOBALS['db'];
     try{
@@ -119,6 +152,31 @@ function Supprimer_tache(String $supprimer_tache){
 
 
 //Fonction ajouter un client dans la liste
+
+//Fonction savoir si le client existe déjà
+//Si oui, message erreur
+
+function verif_client_existant (String $nom_client) {
+
+    $db = $GLOBALS['db'];
+    try {
+        $requete = $db->prepare("SELECT * FROM `Liste_client` WHERE `nom_client` = :nom_client");
+        $requete->bindParam('nom_client', $nom_client);
+
+        $requete->execute();
+        $result = $requete->fetch(PDO::FETCH_ASSOC);
+
+        if ($requete->rowCount() > 0) { //Voir s'il y a un username ou un email qui est déjà connu par DB
+            return true;
+        }
+        else {
+            return false;
+        }
+    } catch (PDOException $e) {
+        echo $e;
+    }
+
+}
 function Ajouter_client (String $nom_client, String $activite_client, String $statut_client, String $adresse_client, String $tva_client, String $impot_client, String $social_client)
 {
     $db = $GLOBALS['db'];

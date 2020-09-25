@@ -323,3 +323,34 @@ input {
     margin: 0 auto;
     background: rgba(0,0,0,0.8 );
 }
+
+legend {
+    font-size: large;
+    font-weight: bold;
+    color: #A4492A;
+}
+
+fieldset {
+    border: 1px dashed gray;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 15px;
+}
+
+th, td {
+    border:1px solid black;
+    width:20%;
+    background-color: lightblue;
+    text-align:center
+}
+td {
+    text-align:center;
+}
+caption {
+    font-weight:bold
+}
+th {
+background-color: #A4492A;
+    text-align:center;
+    color:white;
+}
