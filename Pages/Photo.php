@@ -12,15 +12,16 @@
         <?php include "../Style/Header.php" ?>
 
         <!--Text-->
+        <!--Text-->
         <span>
-                <div style="float: left;">
-                    <img src="../Photos/Smiley.jpg" height="200" width="300" alt="Mains">
-                </div>
-                <div class="text">
-                    <h2> CDA - Wilson HUARD </h2>
-                    <h3> Seminaires, restaurants, afers works, pleins de souvenir lié à CDA et à découvrir ou re-découvrir afin de partager de bons moments collectifs </h3> </br>
-                </div>
-            </span>
+             <div class="container">
+                 <img src="../Photos/CDA_Cabinet.jpg" height="600" width="100%" alt="CDA cabinet">
+                 <div class="text">
+                     <h2> CDA - Wilson HUARD </h2>
+                     <h3> Seminaires, restaurants, afers works, pleins de souvenir lié à CDA et à découvrir ou re-découvrir afin de partager de bons moments collectifs </h3> </br>
+                 </div>
+             </div>
+        </span>
 
         </br>
         </br>

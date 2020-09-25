@@ -12,13 +12,13 @@
 
         <!--Text-->
         <span>
-                <div style="float: left; margin-left: 2%; margin-top: 1%">
-                    <img src="../Photos/Clients.jpg" height="150" width="200" alt="Check">
-                </div>
-                <div class="text">
-                    <h2> CDA - Wilson HUARD </h2>
-                    <h3>Liste des clients </h3> </br>
-                </div>
+             <div class="container">
+                 <img src="../Photos/CDA_Cabinet.jpg" height="600" width="100%" alt="CDA cabinet">
+                 <div class="text">
+                     <h2> CDA - Wilson HUARD </h2>
+                     <h3> Liste des clients </h3> </br>
+                 </div>
+             </div>
         </span>
 
         <!--Ajouter un client-->

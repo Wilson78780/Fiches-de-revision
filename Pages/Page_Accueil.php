@@ -23,8 +23,54 @@
         </br>
         </br>
         </br>
-        </br>
-        </br>
+    <!-- Liste de cours-->
+
+    <div style="margin-left: 22%"
+        <!--Client-->
+        <div class="container" style="margin-left: 3%; width: 350px">
+            <img src="../Photos/Clients.jpg" height="350" width="350" alt="CDA cabinet">
+            <div class="text">
+                <a style="text-decoration: none; color: white" href="Client.php">
+                    <h2> Clients </h2>
+                    <h3 style="margin-left: 10%;"> Liste des clients du porte-feuille</h3> </br>
+                </a>
+            </div>
+        </div>
+
+        <!--Actualité-->
+        <div class="container" style="margin-left: 3%; width: 350px"">
+            <img src="../Photos/Livre.jpg" height="350" width="350" alt="CDA cabinet">
+            <div class="text">
+                <a style="text-decoration: none; color: white" href="Connaissance.php">
+                    <h2> Actualité </h2>
+                    <h3 style="margin-left: 10%;"> Droit social, indiviuel, collectif et protection sociale, plus rien ne sera un secret pour vous.</h3> </br>
+                </a>
+            </div>
+        </div>
+
+        <!--Tâches-->
+        <div class="container" style="margin-left: 3%; width: 350px"">
+            <img src="../Photos/Check.png" height="350" width="400" alt="CDA cabinet">
+            <div class="text">
+                <a style="text-decoration: none; color: white" href="Tache.php">
+                    <h2> Tâches </h2>
+                    <h3 style="margin-left: 10%;"> Pour être sur d'avoir fait ce qu'il fallait</h3> </br>
+                </a>
+            </div>
+        </div>
+
+        <!--Photos-->
+        <div class="container" style="margin-left: 3%; width: 350px"">
+            <img src="../Photos/Smiley.jpg" height="350" width="400" alt="CDA cabinet">
+            <div class="text">
+                <a style="text-decoration: none; color: white" href="Photo.php">
+                    <h2> Photos </h2>
+                    <h3 style="margin-left: 10%;"> Pour se re-mémorer de bons souvenirs</h3> </br>
+                </a>
+            </div>
+        </div>
+
+    </div>
 
 
 

@@ -14,13 +14,13 @@
 
         <!--Text-->
         <span>
-                <div style="float: left; margin-left: 2%; margin-right: 2%;">
-                    <img src="../Photos/Mains.jpg" height="190" width="300" alt="Mains">
-                </div>
-                <div class="text">
-                    <h2> CDA - Wilson HUARD </h2>
-                    <h3> Actualité du cabinet, Séminaire, scéance de sport, rendez-vous, concours, réunion, changement, toutes informations communes </h3> <br>
-                </div>
+             <div class="container">
+                 <img src="../Photos/CDA_Cabinet.jpg" height="600" width="100%" alt="CDA cabinet">
+                 <div class="text">
+                     <h2> CDA - Wilson HUARD </h2>
+                     <h3> Ici retrouvez l'actualité du cabinet ! </h3> </br>
+                 </div>
+             </div>
         </span>
 
         <br>
