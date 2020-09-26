@@ -16,17 +16,19 @@
 			<span>
                 <div>
                     <ul>
-                        <li> <a class="liste1" href="Client.php">Clients </a>
+                        <li> <a id="liste1" href="Client.php">Clients </a>
                             </li>
-                        <li> <a class="liste2" href="Tache.php">Taches </a>
+                        <li> <a id="liste2" href="Tache.php">Taches </a>
                             </li>
-                        <li> <a class="liste3" href="Connaissance.php"> Actu &amp; Pratique </a>
+                        <li> <a id="liste3" href="Connaissance.php"> Actu &amp; Pratique </a>
                             </li>
-                        <li> <a class="liste4" href="Actualite.php">Actualités du cabinet </a>
+                        <li> <a id="liste4" href="Actualite.php">Actualités du cabinet </a>
                             </li>
-                        <li> <a class="liste5" href="Photo.php">Photos </a>
+                        <li> <a id="liste5" href="Photo.php">Photos </a>
                             </li>
-                        <li> <a class="liste6" href="mailto:huardwlison@gmail.com">Contact </a>
+                        <li> <a id="liste6" href="mailto:huardwlison@gmail.com">Contact </a>
+                            </li>
+                        <li ="Admin"> <a id="liste7" href="Admin_Page.php">Administrateur </a>
                             </li>
                         <!--Afficher le nom de l'utilisateur dans le header-->
 

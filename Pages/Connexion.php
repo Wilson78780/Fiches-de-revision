@@ -7,6 +7,7 @@ if (isset($_GET['deconnexion'])) {
 ?>
 
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Connexion</title>
@@ -75,6 +76,7 @@ if (isset($_GET['deconnexion'])) {
        </footer>
 
     </body>
+</html>
 
 <?php
 include"DB.php";
